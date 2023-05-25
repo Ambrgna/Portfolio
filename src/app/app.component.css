@@ -1,0 +1,25 @@
+.wrapper {
+    margin: 0 auto;
+    width: 75%;
+}
+.form-wrapper {
+    margin: 0 auto;
+    width: 75%;
+}
+app-form {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-75%);
+    width: 50%;
+    background-color: rgb(230, 230, 230);
+    padding: 2%;
+    border-radius: 25px;
+    border: 1px solid darkgray;
+}
+app-footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
