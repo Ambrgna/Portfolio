@@ -3,18 +3,28 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
-import { FormComponent } from './form/form.component';
 import { FooterComponent } from './footer/footer.component';
+import { CardComponent } from './card/card.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { AboutComponent } from './about/about.component';
+import { SkillComponent } from './skill/skill.component';
+import { SkillsComponent } from './skills/skills.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    FormComponent,
-    FooterComponent
+    FooterComponent,
+    CardComponent,
+    ProjectsComponent,
+    AboutComponent,
+    SkillComponent,
+    SkillsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

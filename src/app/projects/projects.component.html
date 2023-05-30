@@ -1,0 +1,25 @@
+  <section class="bg-light" id="projects">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1 class="text-uppercase section-heading">Projects</h1>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+          <app-card
+            class="col-sm-6 col-md-4 portfolio-item"
+            *ngFor="let Project of Projects"
+            title="{{Project.title}}" 
+            github="{{Project.github}}" 
+            site="{{Project.site}}">
+            <span class="sub">{{Project.skills}}</span>
+            <ul class="text">
+              <li *ngFor="let Item of Project.list">
+                {{Item}}
+              </li>
+            </ul>
+          </app-card>
+        </div>
+    </div>
+</section>
