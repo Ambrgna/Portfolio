@@ -5,8 +5,14 @@ import { Component, Input } from '@angular/core';
   templateUrl: './skill.component.html',
   styleUrls: ['./skill.component.css']
 })
-export class SkillComponent {
+export class SkillComponent{
   @Input() icon : String = "";
   @Input() title : String = "";
+  noIcon:boolean=false;
   
+  ngOnInit(){
+    if(!this.icon.includes("-")){
+      this.noIcon=true;
+    }
+  }
 }

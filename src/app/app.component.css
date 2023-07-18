@@ -1,4 +1,4 @@
-.wrapper {
+/* .wrapper {
     margin: 0 auto;
     width: 75%;
     min-width: 1000px;
@@ -8,4 +8,15 @@ app-card {
 }
 .nav-link{
     padding-top: 65px; 
+} */
+#page-container {
+    display:grid;
+    grid-template-rows:auto 0 1fr auto;
+    grid-template-columns:100%;
+  
+    /* fallback height */
+    min-height:100vh;
+  
+    /* new small viewport height for modern browsers */
+    min-height:100svh;
 }

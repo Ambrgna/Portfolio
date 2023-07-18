@@ -10,11 +10,11 @@ export class GetskillsService {
     return [
       {
         title: 'Agile Development',
-        icon: 'fa-solid fa-a'
+        icon: 'Agile'
       },
       {
         title: 'Test Driven Development',
-        icon: 'fa-solid fa-t'
+        icon: 'TDD'
       },
       {
         title: 'Java',
@@ -22,19 +22,19 @@ export class GetskillsService {
       },
       {
         title: 'Spring',
-        icon: 'fa-solid fa-s'
+        icon: 'fas fa-leaf'
       },
       {
         title: 'Spring Boot',
-        icon: 'fa-solid fa-s'
+        icon: 'fas fa-power-off'
       },
       {
         title: 'MySQL',
-        icon: 'fa-solid fa-m'
+        icon: 'SQL'
       },
       {
         title: 'Rest APIs',
-        icon: 'fa-solid fa-a'
+        icon: 'API'
       },
       {
         title: 'HTML',
@@ -46,7 +46,7 @@ export class GetskillsService {
       },
       {
         title: 'TypeScript',
-        icon: 'fa-solid fa-t'
+        icon: 'TS'
       },
       {
         title: 'JavaScript',
@@ -76,10 +76,10 @@ export class GetskillsService {
         title: 'React',
         icon: 'fa-brands fa-react'
       },
-      {
-        title: 'Node.js',
-        icon: 'fa-brands fa-node-js'
-      }
+      // {
+      //   title: 'Node.js',
+      //   icon: 'fa-brands fa-node-js'
+      // }
     ]      
   }
 }

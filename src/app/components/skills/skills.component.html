@@ -1,0 +1,19 @@
+<section class="bg-light" id="skills">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-12 text-center">
+              <h1 class="text-uppercase section-heading">Skills</h1>
+          </div>
+      </div>
+      <br>
+      <div class="row text-center">
+        <app-skill
+          class="col-3"
+          *ngFor="let Skill of Skills"
+          icon="{{Skill.icon}}"
+          title="{{Skill.title}}">
+        </app-skill>
+      </div>
+  </div>
+</section>
+  

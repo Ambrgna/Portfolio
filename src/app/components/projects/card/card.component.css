@@ -1,0 +1,11 @@
+
+.card-head{
+    background-color: #e5bc31;
+    color: white;
+}
+.links{
+    background-color: white;
+    border-color: white;
+}
+svg{ font-size: 200%;}
+/* a:not(:hover){ color: black;} */

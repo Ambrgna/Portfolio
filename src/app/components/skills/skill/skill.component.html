@@ -1,0 +1,16 @@
+<!-- <span class="fa-stack fa-3x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="{{icon}} fa-stack-1x fa-inverse"></i></span>
+<h6 class="section-heading">{{title}}</h6> -->
+
+
+<div class="card p-2">
+    <div class="card-body d-flex flex-column bg-primary rounded-circle align-items-center">
+      <span class="fa-stack fa-3x">
+          <b *ngIf="noIcon" class="custom-icon">{{icon}}</b>
+          <!-- <i class="fa fa-circle fa-stack-2x text-primary back"></i> -->
+          <i *ngIf="!noIcon" class="{{icon}} fa-stack-1x fa-inverse"></i>
+        </span>
+  </div>
+  <div class="card-footer">
+      <h6 class="section-heading">{{title}}</h6>
+  </div>
+</div>

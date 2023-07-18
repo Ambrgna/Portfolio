@@ -1,0 +1,12 @@
+.card{
+    background-color: inherit;
+    width: 150px;
+    border: 0;
+}
+.card-footer{
+    background-color: inherit;
+    border: 0;
+}
+.custom-icon{
+    color: white;
+}

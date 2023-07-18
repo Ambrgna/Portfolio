@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { GetaboutService } from '../getabout.service';
+import { GetaboutService } from '../../services/getabout.service';
 
 @Component({
   selector: 'app-about',

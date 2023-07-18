@@ -1,0 +1,37 @@
+<div class="card">
+  <div class="card-header card-head">
+    <h5 class="card-title"><b>{{title}}</b></h5>
+  </div>
+    <div class="card-body d-flex flex-column">
+      <h6 class="card-subtitle">
+        <ng-content select=".sub"></ng-content>
+      </h6>
+      <div class="card-text pt-4">
+        <ng-content select=".text"></ng-content>
+      </div>
+  </div>
+  <div class="card-footer links">
+    <div class="row">
+      <div class="col p-2 text-center" *ngIf="!isGithubHidden">
+          <a href="{{github}}"  class="btn btn-dark w-100">
+            <span *ngIf="siteLogo">
+              Code
+            </span>
+            <div *ngIf="!siteLogo">
+              Front-End
+            </div>
+          </a>
+        </div>
+        <div class="col p-2 text-center" *ngIf="!isSiteHidden">
+            <a href="{{site}}"  class="btn btn-dark w-100">
+            <span *ngIf="siteLogo">
+              Site
+            </span>
+            <span *ngIf="!siteLogo">
+              Back-End
+            </span>
+          </a>
+        </div>
+    </div>
+  </div>
+</div>
