@@ -1,0 +1,19 @@
+<div class="card">
+    <div class="card-body d-flex flex-column">
+      <h5 class="card-title mb-4">{{title}}</h5>
+      <h6 class="card-subtitle">
+        <ng-content select=".sub"></ng-content>
+      </h6>
+      <div class="card-text mt-auto">
+        <ng-content select=".text"></ng-content>
+      </div>
+      <div class="row justify-content-between mt-auto links">
+        <div class="col-4">
+          <a href="{{github}}" [hidden]="isGithubHidden" class="btn btn-lg btn-primary mt-auto align-self-start">GitHub</a>
+        </div>
+        <div class="col-4">
+          <a href="{{site}}" [hidden]="isSiteHidden" class="btn btn-lg btn-primary mt-auto align-self-start">Project Site</a>
+        </div>
+      </div>
+      </div>
+  </div>

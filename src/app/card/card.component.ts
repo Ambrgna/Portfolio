@@ -12,7 +12,6 @@ export class CardComponent {
 
   isGithubHidden : boolean = false;  
   isSiteHidden : boolean = false; 
-  siteLogo:boolean=true;
 
   ngOnInit() {
     if (this.github=="") {
@@ -20,9 +19,6 @@ export class CardComponent {
     }
     if (this.site=="") {
       this.isSiteHidden = true;
-    }
-    if (this.site.includes("https://github.com/")) {
-      this.siteLogo = false;
     }
   }
 }
