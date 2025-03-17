@@ -33,6 +33,19 @@ export class GetprojectsService {
         ]
       },
       {
+        title:"X Men's Morris", 
+        github:"https://github.com/Team-Brownies/x_mens_morris", 
+        site:"",
+        skills:"Java, Junit, JavaFX, Agile Development",
+        list:[
+          "Developed Java application 9 Men's Morris game.", 
+          "Two game modes 9 Men's Morris or 6 Men's Morris.", 
+          "Custom animations for game pieces",
+          "Able to play against two humans, a human and a computer, or two computers.",
+          "Three computer difficulties that make better moves on harder difficulties."
+        ]
+      },
+      {
         title:"React SOS Game", 
         github:"https://github.com/Ambrgna/SOS", 
         site:"https://ambrgna.github.io/SOS/",
